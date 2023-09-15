@@ -39,7 +39,7 @@ class ATM {
         try {
             String url = "jdbc:mysql://localhost:3306/"; // table details
             String username = "root"; // MySQL credentials
-            String password = "ABCxyz@123";
+            String password = "";
             Connection con = DriverManager.getConnection(url, username, password);
 //            System.out.println("Connection Established successfully");
             Statement statement = con.createStatement();
